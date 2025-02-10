@@ -141,8 +141,22 @@ a {
 .client .images {
   display: flex;
   align-items: center;
-  margin-top: 102.65px;
+  margin-top: 76.25px;
+  /* vì đã có padding nên là phải giảm */
   justify-content: space-between;
+}
+.client .images a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 20px;
+  border-radius: 12px;
+}
+.client .images a:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
+}
+.client .images a:nth-child(3) {
+  box-shadow: 0px 0 0 rgba(0, 0, 0, 0)
 }
 /* guides */
 .guides {
