@@ -47,15 +47,24 @@ a {
   opacity: 0.9;
 }
 /* HEADER */
-.header {
+.fix-header {
   background: #e6f0ff;
-  height: 100vh;
+  top: -26px;
+  position: sticky;
+  z-index: 1;
+}
+.hero-wrap {
+  background: #e6f0ff;
+  height: calc(100vh - 90px);
   position: relative;
+  display: flex;
+  /* vì dùng df thì sẽ đẩy phần tử lên trên cùng , nếu header có 2 phần tử con dùng df thì nó sẽ đẩy sang chiều ngang cả 2 phần tử , thì lúc đó dùng thêm thuốc tính flex-direction: column */
 }
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 39px;
+  padding-top: 38px;
+  padding-bottom: 12px;
   /* để cho các phần tử căn giữa theo chiều dọc */
 }
 .navbar ul {
@@ -153,10 +162,10 @@ a {
   border-radius: 12px;
 }
 .client .images a:hover {
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 .client .images a:nth-child(3) {
-  box-shadow: 0px 0 0 rgba(0, 0, 0, 0)
+  box-shadow: 0px 0 0 rgba(0, 0, 0, 0);
 }
 /* guides */
 .guides {
