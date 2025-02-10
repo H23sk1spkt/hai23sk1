@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
-html {
+html, body {
   font-size: 62.5%;
   --primary-color: #0f1b4c;
+  scroll-behavior:initial; 
+  /* tuỳ chọn nhé */
 }
 body {
   font-size: 1.6rem;
