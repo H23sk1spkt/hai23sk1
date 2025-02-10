@@ -73,6 +73,9 @@ a {
   color: #4f5361;
   padding: 8px 14px;
 }
+.navbar ul a:hover {
+  text-decoration: underline;
+}
 .navbar .action-link {
   color: #0f1b4c;
   font-size: 1.4rem;
@@ -445,16 +448,16 @@ a {
   background: #063183;
 }
 .subcription .sub-title1 {
-  color: #FFF;
+  color: #fff;
   font-size: 35px;
   font-weight: 600;
   line-height: 35px;
 }
 .subcription .des {
-  color: #FFF;
+  color: #fff;
   font-size: 16rem;
   font-weight: 400;
-  line-height: 1.;
+  line-height: 1;
   opacity: 0.75;
   margin-top: 15px;
 }
@@ -465,12 +468,12 @@ a {
   font-size: 13px;
   font-weight: 500;
   border-radius: 12px;
-  background: #FFF;
+  background: #fff;
   min-width: 151px;
 }
 .subcription .info {
   width: 671px;
-  padding: 0 80px ;
+  padding: 0 80px;
 }
 .subcription .image {
   position: absolute;
@@ -486,28 +489,29 @@ a {
   gap: 185px;
 }
 .footer .heading {
-  color: #1C1C1D;
+  color: #1c1c1d;
   font-family: Lato, sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
-.footer .item a  {
-  color: #7A7A7E;
+.footer .item a {
+  color: #7a7a7e;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   white-space: nowrap;
   display: inline-block;
 }
-.footer .list , .footer .des {
+.footer .list,
+.footer .des {
   margin-top: 42px;
 }
-.footer .item  {
+.footer .item {
   margin-top: 18px;
 }
 .footer .copyrighting {
   margin-left: auto;
-  color: #C2C2C2;
+  color: #c2c2c2;
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
@@ -521,9 +525,4 @@ a {
 }
 .footer .social-link {
   display: inline-block;
-  
 }
-
-
-
-
