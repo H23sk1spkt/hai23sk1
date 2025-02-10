@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   font-size: 62.5%;
   --primary-color: #0f1b4c;
-  scroll-behavior:initial; 
+  scroll-behavior: initial;
   /* tuỳ chọn nhé */
 }
 body {
@@ -57,7 +58,7 @@ a {
 }
 .hero-wrap {
   background: #e6f0ff;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   position: relative;
   display: flex;
   /* vì dùng df thì sẽ đẩy phần tử lên trên cùng , nếu header có 2 phần tử con dùng df thì nó sẽ đẩy sang chiều ngang cả 2 phần tử , thì lúc đó dùng thêm thuốc tính flex-direction: column */
@@ -97,32 +98,27 @@ a {
   margin-left: 18px;
   border-radius: 8px;
 }
-.hero {
-  margin-top: 130px;
-  display: flex;
-}
-.hero .info {
-  width: 58%;
-}
-.hero .sub-title {
+.hero-wrap .info {
+  width: 58%;}
+.hero-wrap .sub-title {
   color: #687690;
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.01125rem;
 }
-.hero .title {
+.hero-wrap .title {
   color: #000336;
   font-size: 5rem;
   font-weight: 700;
   line-height: 7rem;
 }
-.hero .desc {
+.hero-wrap .desc {
   color: #5a6473;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 2rem;
 }
-.hero .hero-cta {
+.hero-wrap .hero-cta {
   min-width: 170px;
   margin-top: 40px;
 }
